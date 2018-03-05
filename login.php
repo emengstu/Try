@@ -1,15 +1,16 @@
+<?php
 $user = 'root';
 $password = 'root';
-$db = 'inventory';
+$db = 'table';
 $host = 'localhost';
 $port = 3306;
-
-$link = mysqli_init();
-$success = mysqli_real_connect(
-   $link, 
-   $host, 
-   $user, 
-   $password, 
-   $db,
-   $port
-);
+?>
+<h1> Trying PHP</h1>
+<form>action='#' method="post">
+   <lable for="firstname">Enter your first name:</label>
+   <input type="text" name="firstname"<be>
+   <label for="lastname">Enter your last name:</label>
+   <input type="text" name="lastname"><br>
+   <input type="submit" value= "Submit">
+ 
+</form>
