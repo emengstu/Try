@@ -6,7 +6,7 @@ $host = 'localhost';
 $port = 3306;
 ?>
 <h1> Trying PHP</h1>
-<form>action='#' method="post">
+<form>action="#" method="post">
    <label for="first_name">Enter your first name:</label>
    <input type="text" name="firstname"<be>
    <label for="last_name">Enter your last name:</label>
