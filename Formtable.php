@@ -15,7 +15,7 @@
         <div class="container">
             <div class="row">
 		           	<h1>Enter Author Data</h1><br>
-		          	<form action="saveAuthor.php" method="post" class="form-horizontal">
+		          	<form action="saveuser.php" method="post" class="form-horizontal">
 				        <div class="form-group">
 					      <label for="first_name" class="control-label col-sm-3">Author's Name</label>
 					      <div class="col-sm-3">
