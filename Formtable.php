@@ -27,9 +27,18 @@
 						<input type="date" class="form-control" id="signup_date" name="signup_date">
 					</div>
 				</div>
+				<div class="form-group">
+					<input type="submit" value= "Submit" class="btn btn-warning pull-right">
+					</div>
 				
 		    </form>
-		    
+		    <h2> Current Authors </h2>
+		    <?php
+		    	foreach($result as $r){
+				echo"<p>". $r['first_name']."</p>";
+			}
+		    ?>
+		    </form>
 		</body>
 		</html>		
           
