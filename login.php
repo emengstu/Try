@@ -11,6 +11,8 @@ $port = 3306;
    <input type="text" name="firstname"<be>
    <label for="last_name">Enter your last name:</label>
    <input type="text" name="lastname"><br>
+   <label for="user_name">Enter your user name:</label>
+   <input type="text" name="username"><br>
    <label for="signup_date">Enter a date:</label>
    <input type="date" name="signup_date"><br>
    <input type="submit" value= "Submit">
