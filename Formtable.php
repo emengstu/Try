@@ -65,7 +65,7 @@
 
 
 <?php 
-	include 'resources/bsfooter.php';
+	include 'bsfooter.php';
 ?>	
 </body>
 </html>
