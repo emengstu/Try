@@ -34,5 +34,5 @@
 	if (!$result) die ($conn-> error);
 	$rows= $result->num_rows;
 	echo "There are". $rows . "rows in the User table. <br>";
-	echo "<a href='sampleForm.php'>Add another author... </a><br>";
+	echo "<a href='Formtable.php'>Add another author... </a><br>";
 ?>
