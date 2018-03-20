@@ -46,7 +46,7 @@
 		    </form>
 		    <h2> Users  </h2>
 		    <?php if ($result):?>
-		    	     < table class= "small table table-condensed table-striped">
+		    	      <table class= "small table table-condensed table-striped">
 				     <thead><tr><th>Name</th><th></thead>
 				     <tbody>
 					     <?php foreach ($result as $r): ?>
